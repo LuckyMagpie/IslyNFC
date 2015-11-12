@@ -18,7 +18,6 @@ import android.widget.Toast;
 import project.com.isly.fragments.Add;
 import project.com.isly.fragments.ContentFragment;
 import project.com.isly.fragments.Statistics;
-import project.com.isly.fragments.Take;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -86,9 +85,8 @@ public class MainActivity extends AppCompatActivity {
                         toolbar.setTitle(R.string.add);
                         break;
                     case R.id.list:
-                        fragment=new Take();
-                        toolbar.setTitle(R.string.take_ly);
-                        break;
+                        takelist();
+                        return false;
                     case R.id.statistics:
                         fragment=new Statistics();
                         toolbar.setTitle(R.string.statistics);
@@ -160,5 +158,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+    }
+
+    public void takelist(){
+        Intent intent = new Intent(this,Take.class);
+        startActivity(intent);
+
     }
 }

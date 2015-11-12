@@ -46,4 +46,4 @@
         android:layout_alignLeft="@+id/username"
         android:layout_alignStart="@+id/username" />
 
-</RelativeLayout><!-- From: file:/home/juan/Escritorio/Isly/app/src/main/res/layout/header.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/src/main/res/layout/header.xml -->

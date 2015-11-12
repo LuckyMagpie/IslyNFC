@@ -1,14 +1,14 @@
--injars /home/juan/Escritorio/Isly/app/build/intermediates/multi-dex/debug/allclasses.jar
--outjars /home/juan/Escritorio/Isly/app/build/intermediates/multi-dex/debug/componentClasses.jar
+-injars 'C:\Users\Diego\Desktop\IslyNFC\app\build\intermediates\multi-dex\debug\allclasses.jar'
+-outjars 'C:\Users\Diego\Desktop\IslyNFC\app\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars /home/juan/android-sdk-linux/build-tools/23.0.1/lib/shrinkedAndroid.jar
+-libraryjars 'C:\Users\Diego\AppData\Local\Android\sdk\build-tools\23.0.1\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
 -dontobfuscate
 -dontpreverify
 -dontwarn
--printconfiguration /home/juan/Escritorio/Isly/app/build/intermediates/multi-dex/debug/components.flags
+-printconfiguration 'C:\Users\Diego\Desktop\IslyNFC\app\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class null {
@@ -21,6 +21,10 @@
 }
 
 -keep class project.com.isly.Login {
+    <init>();
+}
+
+-keep class project.com.isly.Take {
     <init>();
 }
 

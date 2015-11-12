@@ -4,6 +4,7 @@
 }
 -keep class project.com.isly.MainActivity { <init>(); }
 -keep class project.com.isly.Login { <init>(); }
+-keep class project.com.isly.Take { <init>(); }
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();
 }

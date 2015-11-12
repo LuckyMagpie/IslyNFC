@@ -64,6 +64,7 @@ public class DBH extends SQLiteOpenHelper {
         }catch (Exception ex){
             Toast.makeText(ctx,"Error",Toast.LENGTH_SHORT).show();
         }finally {
+            conection.close();
             db.close();
         }
     }
@@ -102,6 +103,8 @@ public class DBH extends SQLiteOpenHelper {
         db.update(MyTable.TableInfo.lists_table, value2, null, null);
         db.update(MyTable.TableInfo.lists_table, values, MyTable.TableInfo.name_list + "=?",
                 new String[]{name_list});
+        conection.close();
+
         db.close();
         return 1;
     }
@@ -110,7 +113,12 @@ public class DBH extends SQLiteOpenHelper {
     public static boolean checkIfExists(Context ctx,Student student){
         DBH conection = new DBH(ctx);
         SQLiteDatabase sq=conection.getWritableDatabase();
-        Cursor cr = sq.rawQuery("SELECT * FROM " + MyTable.TableInfo.students_table + " WHERE " + MyTable.TableInfo.id_mobile + "=? ", new String[]{student.getMac()});
+        int id_list = 0;
+        Cursor cur = sq.rawQuery("SELECT " + MyTable.TableInfo.id_list + " FROM " + MyTable.TableInfo.lists_table + " WHERE " + MyTable.TableInfo.is_active + "='1'", null);
+        if(cur.moveToFirst())
+            id_list=cur.getInt(cur.getColumnIndex(MyTable.TableInfo.id_list));
+
+        Cursor cr = sq.rawQuery("SELECT * FROM " + MyTable.TableInfo.students_table + " WHERE " + MyTable.TableInfo.id_mobile + "=? AND " + MyTable.TableInfo.id_list2+ "=?", new String[]{student.getMac(), Integer.toString(id_list)});
 
         Date d = Calendar.getInstance().getTime(); // Current time
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm"); // Set your date format
@@ -124,6 +132,23 @@ public class DBH extends SQLiteOpenHelper {
         }
         conection.close();
         return false;
+    }
+
+    public static String getName(Context ctx, String id){
+        DBH conection = new DBH(ctx);
+        SQLiteDatabase sq=conection.getWritableDatabase();
+        String name = "";
+        Cursor cr = sq.rawQuery("SELECT * FROM " + MyTable.TableInfo.students_table + " WHERE " + MyTable.TableInfo.id_mobile + "=? ", new String[]{id});
+        try {
+            if (cr.moveToFirst()) {
+                name = cr.getString(cr.getColumnIndex(MyTable.TableInfo.name_student));
+            }
+        }catch (Exception ex){
+            Toast.makeText(ctx,R.string.unexpected,Toast.LENGTH_SHORT).show();
+        }finally {
+            conection.close();
+        }
+        return name;
     }
 
     //Adds a new student if doesn't exist

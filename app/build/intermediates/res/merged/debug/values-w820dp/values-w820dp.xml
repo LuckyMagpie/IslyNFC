@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/juan/Escritorio/Isly/app/src/main/res/values-w820dp/dimens.xml -->
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/src/main/res/values-w820dp/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">64dp</dimen>
-    <!-- From: file:/home/juan/Escritorio/Isly/app/src/main/res/values-w820dp/strings.xml -->
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/src/main/res/values-w820dp/strings.xml -->
     <eat-comment/>
     <string name="Register">Register</string>
     <string name="assistances">Assistances</string>

@@ -9,4 +9,4 @@
         android:fromXDelta="0"
         android:toXDelta="30%p"
         android:duration="200" />
-</set><!-- From: file:/Users/dmitrytarianyk/Work/workspace/android/FloatingActionButton/library/src/main/res/anim/fab_slide_out_to_right.xml --><!-- From: file:/home/juan/Escritorio/Isly/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.1/res/anim/fab_slide_out_to_right.xml -->
+</set><!-- From: file:/Users/dmitrytarianyk/Work/workspace/android/FloatingActionButton/library/src/main/res/anim/fab_slide_out_to_right.xml --><!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.1/res/anim/fab_slide_out_to_right.xml -->

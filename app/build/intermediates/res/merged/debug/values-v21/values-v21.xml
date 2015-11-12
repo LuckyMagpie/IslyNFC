@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/juan/Escritorio/Isly/app/src/main/res/values-v21/strings.xml -->
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/src/main/res/values-v21/strings.xml -->
     <eat-comment/>
     <string-array name="test">
         <item>Testing</item>
         <item>Testing</item>
     </string-array>
-    <!-- From: file:/home/juan/Escritorio/Isly/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/values-v21/values-v21.xml -->
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/src/main/res/values-v21/color.xml -->
+    <eat-comment/>
+    <item name="button_background" type="color">#FFB20A</item>
+    <item name="colorPrimary" type="color">#0A9BAF</item>
+    <item name="colorPrimaryDark" type="color">#015F6C</item>
+    <item name="error_color" type="color">#ED5F5F</item>
+    <item name="hint_color" type="color">#A2A5A6</item>
+    <item name="letter_color" type="color">#2C3336</item>
+    <item name="white" type="color">#FFF</item>
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <dimen name="design_navigation_padding_top_default">24dp</dimen>
-    <!-- From: file:/home/juan/Escritorio/Isly/app/src/main/res/values-v21/strings.xml -->
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/src/main/res/values-v21/strings.xml -->
     <eat-comment/>
     <string name="Register">Register</string>
     <string name="action_example">Example action</string>
@@ -47,7 +56,7 @@
     <string name="taking">Taking List...</string>
     <string name="unexpected">Unexpected Error</string>
     <string name="user">User</string>
-    <!-- From: file:/home/juan/Escritorio/Isly/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -55,7 +64,7 @@
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:editTextStyle">@style/EditTextStyle</item>
     </style>
-    <!-- From: file:/home/juan/Escritorio/Isly/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml -->
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
@@ -270,13 +279,13 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
-    <!-- From: file:/home/juan/Escritorio/Isly/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
         <item name="colorControlActivated">@color/white</item>
         <item name="colorControlHighlight">@color/white</item>
     </style>
-    <!-- From: file:/home/juan/Escritorio/Isly/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml -->
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme.Material">
         <item name="android:windowNoTitle">true</item>
@@ -304,7 +313,7 @@
     </style>
     <style name="Platform.ThemeOverlay.AppCompat.Dark"/>
     <style name="Platform.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/home/juan/Escritorio/Isly/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/C:/Users/Diego/Desktop/IslyNFC/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="myButton" parent="android:style/Widget.Material.Button">
         <item name="android:background">@drawable/raised_button_background</item>
