@@ -21,8 +21,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,16 +46,16 @@ import project.com.isly.models.Student;
  * Created by juan on 13/10/15.
  * Activity which is able to show the easiest way to take list
  */
-public class Take extends NFCActivity implements View.OnClickListener {
+public class Take extends NFCActivity  {
     RecyclerView rv;
     List<Student> items;
     private static final int REQUEST_ENABLE_BT = 1;
-    private Button btn,btnCancel;
     RecyclerAdapter adapter;
+    Switch entrySw;
+    TextView text;
+    String isExit = "N";
     private Toolbar toolbar;
     private com.github.clans.fab.FloatingActionButton fab;
-
-    boolean on = false;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -68,11 +70,21 @@ public class Take extends NFCActivity implements View.OnClickListener {
         adapter=new RecyclerAdapter(items);
         rv.setAdapter(adapter);
 
-        btn=(Button)findViewById(R.id.btn);
-        btn.setOnClickListener(this);
+        entrySw =(Switch)findViewById(R.id.EntrySwitch);
+        text = (TextView)findViewById(R.id.EntrySwitchTxt);
+        entrySw.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked) {
+                    text.setText(R.string.exit);
+                    isExit = "Y";
+                }else{
+                    text.setText(R.string.entry);
+                    isExit = "N";
+                }
+            }
+        });
 
-        btnCancel=(Button)findViewById(R.id.btnCancel);
-        btnCancel.setOnClickListener(this);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Take");
         toolbar.setTitleTextColor(Color.WHITE);
@@ -134,27 +146,14 @@ public class Take extends NFCActivity implements View.OnClickListener {
             @Override
             public void onClick(View v) {
                for(Student student : items){
-                   if(!(DBH.checkIfExists(getApplicationContext(),new Student(student.getName(),student.getName(), student.getMac())))){
-                       DBH.addNewStudent(getApplicationContext(),new Student(student.getName(),student.getName(), student.getMac()));
-                   }
+                   DBH.addNewStudent(getApplicationContext(),new Student(student.getName(),student.getName(), student.getMac()), isExit);
+
                }
             }
         });
     }
 
-    @Override
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.btn:
-                on = true;
-                btn.setEnabled(false);
-                break;
-            case R.id.btnCancel:
-                on = false;
-                btn.setEnabled(true);
-                break;
-        }
-    }
+
   /*  @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {}
     final BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
@@ -180,11 +179,10 @@ public class Take extends NFCActivity implements View.OnClickListener {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        on = false;
     }
 
     public void onTagDiscovered(Context context, Intent intent) {
-        if(on) {
+
             Tag myTag = (Tag) intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
 
             String id = bytesToHex(myTag.getId());
@@ -193,7 +191,7 @@ public class Take extends NFCActivity implements View.OnClickListener {
             if (name.isEmpty()) name = "No available";
             items.add(new Student(name, name, id));
             adapter.notifyItemInserted(items.size());
-        }
+
     }
 
     final protected static char[] hexArray = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};

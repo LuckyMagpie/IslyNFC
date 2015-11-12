@@ -53,6 +53,7 @@ android/support/v7/widget/RecyclerView$ItemAnimator$ItemAnimatorListener.class
 android/support/v4/app/TaskStackBuilder.class
 android/support/v4/app/NavUtils.class
 android/support/design/widget/AppBarLayout$ScrollingViewBehavior.class
+project/com/isly/Take$3.class
 android/support/v7/widget/RecyclerView$1.class
 android/support/v4/media/MediaBrowserCompat$ItemCallback.class
 com/v1tor/nuno/projectoiii/base/NFCActivity.class

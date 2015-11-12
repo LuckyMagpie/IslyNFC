@@ -10,6 +10,7 @@ public class Students {
     private String last_updated;
     private int counter;
     private String mac;
+    private String exit;
 
     public String getId_student() {
         return id_student;
@@ -58,4 +59,13 @@ public class Students {
     public void setMac(String mac) {
         this.mac = mac;
     }
+
+    public String getExit() {
+        return exit;
+    }
+
+    public void setExit(String exit) {
+        this.exit = exit;
+    }
+
 }

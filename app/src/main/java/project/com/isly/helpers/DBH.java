@@ -27,7 +27,7 @@ public class DBH extends SQLiteOpenHelper {
     public String sqlQuery="CREATE TABLE IF NOT EXISTS " +MyTable.TableInfo.lists_table+"( "+ MyTable.TableInfo.id_list+" INTEGER PRIMARY KEY, " +
             MyTable.TableInfo.name_list+" TEXT," +MyTable.TableInfo.key_list+" TEXT," +MyTable.TableInfo.is_active+" TEXT);";
     public String sqlQuery2="CREATE TABLE IF NOT EXISTS "+MyTable.TableInfo.students_table+"( "+MyTable.TableInfo.id_student+" INTEGER PRIMARY KEY, "+MyTable.TableInfo.id_list+
-            " TEXT,"+MyTable.TableInfo.name_student+" TEXT,"+MyTable.TableInfo.mat+" TEXT,"+MyTable.TableInfo.id_list2+" TEXT,"+MyTable.TableInfo.last_updated+" DATE,"+
+            " TEXT,"+MyTable.TableInfo.name_student+" TEXT,"+MyTable.TableInfo.mat+" TEXT,"+MyTable.TableInfo.id_list2+" TEXT,"+MyTable.TableInfo.isExit+" TEXT,"+MyTable.TableInfo.last_updated+" DATE,"+
             MyTable.TableInfo.id_mobile+" TEXT,"+MyTable.TableInfo.counter+" INTEGER);";
 
     //Constructor
@@ -152,7 +152,7 @@ public class DBH extends SQLiteOpenHelper {
     }
 
     //Adds a new student if doesn't exist
-    public static void addNewStudent(Context ctx,Student student){
+    public static void addNewStudent(Context ctx,Student student, String exit){
         DBH conection = new DBH(ctx);
         SQLiteDatabase db = conection.getReadableDatabase();
         try {
@@ -166,6 +166,7 @@ public class DBH extends SQLiteOpenHelper {
             values.put(MyTable.TableInfo.name_student,student.getName());
             values.put(MyTable.TableInfo.id_mobile, student.getMac());
             values.put(MyTable.TableInfo.id_list2,id_list);
+            values.put(MyTable.TableInfo.isExit, exit);
             db.insert(MyTable.TableInfo.students_table, null, values);
             System.out.println(id_list);
             Toast.makeText(ctx, R.string.ok,Toast.LENGTH_SHORT).show();
@@ -190,7 +191,7 @@ public class DBH extends SQLiteOpenHelper {
                     student.setMac(cr.getString(cr.getColumnIndex(MyTable.TableInfo.id_mobile)));
                     student.setCounter(cr.getInt(cr.getColumnIndex(MyTable.TableInfo.counter)));
                     student.setLast_updated(cr.getString(cr.getColumnIndex(MyTable.TableInfo.last_updated)));
-
+                    student.setExit(cr.getString(cr.getColumnIndex(MyTable.TableInfo.isExit)));
                     active_students.add(student);
                 } while (cr.moveToNext());
             }

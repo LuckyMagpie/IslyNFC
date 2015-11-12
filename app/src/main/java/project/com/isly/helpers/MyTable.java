@@ -25,6 +25,8 @@ public class MyTable {
         public static final String mat="mat";
         public static final String last_updated="last_updated";
         public static final String counter="counter";
+        public static final String isExit="isExit";
+
     }
 }
 

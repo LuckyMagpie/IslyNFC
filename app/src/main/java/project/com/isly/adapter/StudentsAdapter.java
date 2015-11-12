@@ -34,7 +34,7 @@ public class StudentsAdapter extends ArrayAdapter {
         Students student= (Students) getItem(position);
         name.setText(student.getName_student());
         mac.setText(student.getMac());
-        counter.setText(getContext().getResources().getString(R.string.assistances)+": "+String.valueOf(student.getCounter()));
+        counter.setText(student.getExit().equals("Y") ? R.string.exit : R.string.entry);
         last.setText(student.getLast_updated());
 
         return convertView;

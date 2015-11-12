@@ -8,6 +8,8 @@
     <string name="Register">Register</string>
     <string name="assistances">Assistances</string>
     <string name="cancel">Cancel</string>
+    <string name="entry">Entry</string>
+    <string name="exit">Exit</string>
     <string name="id">Matricula</string>
     <string name="key_list">Key List</string>
     <string name="list_name">List Name</string>

@@ -361,7 +361,9 @@
     <string name="closeDrawer">Navigation View</string>
     <string name="empty_field">some field is empty</string>
     <string name="empty_lists">Empty List</string>
+    <string name="entry">Entry</string>
     <string name="error_incorrect">Your credentials are wrong</string>
+    <string name="exit">Exit</string>
     <string name="hello_world">Hello world!</string>
     <string name="home">Home</string>
     <string name="id">Matricula</string>

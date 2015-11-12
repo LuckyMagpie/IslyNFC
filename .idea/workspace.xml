@@ -51,21 +51,20 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-13.655172">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding>
+                <element signature="e#1306#1321#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/add.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state vertical-scroll-proportion="-25.185184">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -85,7 +84,31 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/Take.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="202" column="19" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2447#2868#0" expanded="true" />
+                <element signature="e#2670#2683#0" expanded="true" />
+                <element signature="e#2776#2790#0" expanded="true" />
+                <element signature="e#2867#2868#0" expanded="true" />
+                <element signature="e#3837#3853#0" expanded="true" />
+                <element signature="e#3997#4008#0" expanded="true" />
+                <element signature="e#4319#4342#0" expanded="true" />
+                <element signature="e#4910#4925#0" expanded="true" />
+                <element signature="e#5647#5965#0" expanded="true" />
+                <element signature="e#5964#5965#0" expanded="true" />
+                <element signature="e#7206#7207#0" expanded="true" />
+                <element signature="e#7239#7240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/fragments/Statistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,28 +120,11 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/adapter/StudentsAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.703704">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/helpers/MyTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding />
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+              <folding>
+                <element signature="e#1373#1386#0" expanded="true" />
+                <element signature="e#1389#1403#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,19 +132,42 @@
       <file leaf-file-name="DBH.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/helpers/DBH.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8846787">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.64415157">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding>
+                <element signature="e#8995#9014#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_button.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/login_button.xml">
+      <file leaf-file-name="Students.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/models/Students.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <folding>
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+                <element signature="e#1289#1290#0" expanded="true" />
+                <element signature="e#1329#1330#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1720,11 +1749,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/project/com/isly/fragments/Add.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/project/com/isly/helpers/NFCFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/project/com/isly/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/take.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/color.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/project/com/isly/models/Students.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/project/com/isly/adapter/StudentsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/project/com/isly/helpers/MyTable.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/take.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/project/com/isly/Take.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/project/com/isly/helpers/DBH.java" />
       </list>
@@ -2227,7 +2259,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -2290,28 +2322,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/helpers/MyTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/fragments/Add.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2291#3060#0" expanded="true" />
-            <element signature="e#3059#3060#0" expanded="true" />
-            <element signature="e#3363#5774#0" expanded="true" />
-            <element signature="e#4295#5293#0" expanded="true" />
-            <element signature="e#5292#5293#0" expanded="true" />
-            <element signature="e#5387#5645#0" expanded="true" />
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5773#5774#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2291#3060#0" expanded="false" />
+            <element signature="e#3059#3060#0" expanded="false" />
+            <element signature="e#3363#5774#0" expanded="false" />
+            <element signature="e#4295#5293#0" expanded="false" />
+            <element signature="e#5292#5293#0" expanded="false" />
+            <element signature="e#5387#5645#0" expanded="false" />
+            <element signature="e#5644#5645#0" expanded="false" />
+            <element signature="e#5773#5774#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2320,6 +2344,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2338,7 +2365,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2355,7 +2382,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2378,15 +2405,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2291#3060#0" expanded="true" />
-            <element signature="e#3059#3060#0" expanded="true" />
-            <element signature="e#3363#5774#0" expanded="true" />
-            <element signature="e#4295#5293#0" expanded="true" />
-            <element signature="e#5292#5293#0" expanded="true" />
-            <element signature="e#5387#5645#0" expanded="true" />
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5773#5774#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2291#3060#0" expanded="false" />
+            <element signature="e#3059#3060#0" expanded="false" />
+            <element signature="e#3363#5774#0" expanded="false" />
+            <element signature="e#4295#5293#0" expanded="false" />
+            <element signature="e#5292#5293#0" expanded="false" />
+            <element signature="e#5387#5645#0" expanded="false" />
+            <element signature="e#5644#5645#0" expanded="false" />
+            <element signature="e#5773#5774#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2469,6 +2496,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2525,18 +2555,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/fragments/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.0.1/appcompat-v7-23.0.1-sources.jar!/android/support/v7/app/AppCompatActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2599,15 +2622,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2291#3060#0" expanded="true" />
-            <element signature="e#3059#3060#0" expanded="true" />
-            <element signature="e#3363#5774#0" expanded="true" />
-            <element signature="e#4295#5293#0" expanded="true" />
-            <element signature="e#5292#5293#0" expanded="true" />
-            <element signature="e#5387#5645#0" expanded="true" />
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5773#5774#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2291#3060#0" expanded="false" />
+            <element signature="e#3059#3060#0" expanded="false" />
+            <element signature="e#3363#5774#0" expanded="false" />
+            <element signature="e#4295#5293#0" expanded="false" />
+            <element signature="e#5292#5293#0" expanded="false" />
+            <element signature="e#5387#5645#0" expanded="false" />
+            <element signature="e#5644#5645#0" expanded="false" />
+            <element signature="e#5773#5774#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2628,7 +2651,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="52" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2638,19 +2661,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="163" column="52" selection-start-line="163" selection-start-column="52" selection-end-line="163" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/take.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2697,22 +2709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/helpers/MyTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/adapter/StudentsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/models/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14003295">
@@ -2729,21 +2725,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/Take.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.185184">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/fragments/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="202" column="19" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/take.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.655172">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="e#1306#1321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/adapter/StudentsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="e#1373#1386#0" expanded="true" />
+            <element signature="e#1389#1403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/Take.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2447#2868#0" expanded="true" />
+            <element signature="e#2670#2683#0" expanded="true" />
+            <element signature="e#2776#2790#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
+            <element signature="e#3837#3853#0" expanded="true" />
+            <element signature="e#3997#4008#0" expanded="true" />
+            <element signature="e#4319#4342#0" expanded="true" />
+            <element signature="e#4910#4925#0" expanded="true" />
+            <element signature="e#5647#5965#0" expanded="true" />
+            <element signature="e#5964#5965#0" expanded="true" />
+            <element signature="e#7206#7207#0" expanded="true" />
+            <element signature="e#7239#7240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/helpers/MyTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6919275">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/models/Students.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/project/com/isly/helpers/DBH.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8846787">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.64415157">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="e#8995#9014#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
